@@ -5,7 +5,7 @@
   "description": "Liczy średnią końcową w dzienniku uonet+",
   "content_scripts": [
     {
-      "js": ["scripts/srednia.js"],
+      "js": ["scripts/index.js"],
       "matches": ["https://uonetplus-uczen.vulcan.net.pl/*"]
     }
   ]

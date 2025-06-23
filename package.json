@@ -1,0 +1,26 @@
+{
+  "name": "sredniak",
+  "version": "1.0.0",
+  "description": "\"Rozszerzenie liczące średnią końcoworoczną w dzienniku uonet+\"",
+  "main": "scripts/srednia.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KariminK/sredniak.git"
+  },
+  "keywords": [
+    "srednia",
+    "dziennik"
+  ],
+  "author": "KariminK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KariminK/sredniak/issues"
+  },
+  "homepage": "https://github.com/KariminK/sredniak#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

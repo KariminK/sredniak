@@ -41,7 +41,7 @@ function avg(arr) {
 
 function renderAverage(averageElement) {
   const tabBar = document.querySelector("#ext-element-174");
-  tabBar.insertAdjacentElement("afterend", averageElement);
+  if (tabBar) tabBar.insertAdjacentElement("afterend", averageElement);
 }
 
 function createAverageElement(average) {
@@ -54,7 +54,7 @@ function createAverageElement(average) {
 }
 
 addEventListener("click", () => {
-  if (!document.querySelector("#ext-tab-5").classList.contains("x-active"))
+  if (!document.querySelector("#ext-tab-5")?.classList.contains("x-active"))
     return;
   if (document.querySelectorAll(".x-label-el") === null) return;
 
