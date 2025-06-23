@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Sredniak",
+  "version": "1.0",
+  "description": "Liczy średnią końcową w dzienniku uonet+",
+  "content_scripts": [
+    {
+      "js": ["scripts/srednia.js"],
+      "matches": ["https://uonetplus-uczen.vulcan.net.pl/*"]
+    }
+  ]
+}
